@@ -1,0 +1,193 @@
+body {
+	
+    background-color: gray;
+	height: 1000px;
+	
+}
+@font-face {
+	font-family: philo;
+	src: url(Philosopher-Regular.ttf);
+}
+.stext {
+	margin: auto;
+	font-size: 50px;
+	height: 400px;
+	text-align: center;
+	margin-left: 1072px;
+	margin-top: 50px;
+	font-family: sans-serif;
+	position: fixed;
+	color: #a6a6a6;
+	text-shadow: 0px 1px 1px rgba(255,255,255,.3), -1px -2px 1px rgba(0,0,0,.7);
+	font-size: 50px;
+	font-weight: bold;
+	
+}
+.main{
+	
+	margin: auto;
+	align-items: center;
+	
+}
+.header-logo{
+	
+	margin-left: -900px;
+	margin-top: -70px;
+	height: 105px;
+	
+}
+
+.header{
+	
+	text-align: center;
+	--tw-bg-opacity: 1;
+    background-color: rgba(45,55,72,var(--tw-bg-opacity));
+	height: 170px;
+	 
+}
+.header-one a{
+	text-decoration: none;
+	color: white;
+	padding-right: 30px;
+	font-family: sans-serif;
+ 
+}
+.htext a:hover { 
+	padding: 5px; 
+	background-color: gray;
+	border-radius: 5px;
+}
+.htext img{ 
+	margin-left: 1000px;
+	margin-top: -100px;
+	width: 130px;
+	
+	
+}
+
+.img{
+	height:50px;
+	width: 160px;
+	margin-left: 1100px;
+	margin-top: -35px;
+	position: absolute;
+	
+ 
+}
+.htext a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	
+
+}
+.content{
+	position: relative;
+	text-align: center;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 15px;
+	height:px;
+	
+}
+.container{
+	margin: auto;
+	width: 1000px;
+	height: 500px;
+}
+.container1{
+	padding-top: 30px;
+	background-color: white;
+	width: 1000px;
+	height: 1700px;
+	text-align: center;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px black;
+	background-image: linear-gradient(180deg, white, gray);
+
+}
+.container1 h1{
+	font-family: philo;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px #807b6e;
+}
+.staffs h1{
+	font-family: philo;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px #807b6e;
+	text-align: left;
+	margin-left: 100px;
+}
+.column {
+  margin-top: 30px;
+  margin-left: 20px;
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+  text-align: left;
+}
+.column.side p{
+  font-size: 19px;
+  text-align: justify;
+  margin-left: 100px;
+  width: 280px;
+  font-family: sans-serif;
+}
+.column.side h1{
+  margin-top: 40px;
+  font-size: 19px;
+  margin-left: 100px;
+  width: 280px;
+  font-family: philo;
+}
+.details{
+	font-size: 100px;
+}
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+.column.middle img{
+  width: 40%;
+  margin-left: 190px;
+  margin-top: 10px;
+  box-shadow: 10px 10px 5px #807b6e;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container1 p{
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: left;
+	text-align: justify;
+	font-size: 20px;
+	font-family: philo;
+}
+
+#footer { margin-top: 50px; }
+#footer #footer-container { margin: auto; width: 900px; }
+#footer #footer-container .footer-c { float: left; width: 250px; margin-left: 38px;  }
+#footer #footer-container .footer-c .footer-c-list a:hover { 
+	padding: 5px; 
+	background-color: #919492;
+	border-radius: 5px;
+}
+#footer #footer-container .footer-c .footer-c-list h3 { font-family: philo; width: 100%; margin-top: 70px; color: #c3c7c4; margin-bottom: 20px; font-size: 20px; }
+#footer #footer-container .footer-c .footer-c-list a { padding: 5; font-family: philo; text-decoration: none; color: #c3c7c4; line-height: 2; }
+#footer #footer-container .footer-c .footer-c-list p { text-align: justify; font-family: philo; color: #c3c7c4; line-height: auto; }
+
+#copyright hr { margin-bottom: 20px; }
+#copyright { clear: both; width: 900px; height: 50px; margin-left: 10px;  padding-top: 20px; padding-bottom: 80px; }
+#copyright p { font-family: philo; color: #c3c7c4; font-size: 15px; }
+#copyright a { color: #FFFFFF; text-decoration: none; }
